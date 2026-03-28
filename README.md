@@ -1,6 +1,6 @@
-# 🛒 MarketPro Clone - E-commerce Sri Lanka
+# 🛒 MarketPro - E-commerce Sri Lanka
 
-A premium, high-performance e-commerce marketplace platform built by cloning and customizing the MarketPro template for the Sri Lankan market. This project features localized branding, currency, and a modern React-based architecture.
+A premium, high-performance e-commerce marketplace platform built by customizing the MarketPro template for the Sri Lankan market. This project features localized branding, currency, and a modern React-based architecture.
 
 ---
 
@@ -90,7 +90,7 @@ npm run build
 
 ## 📝 License
 
-This project was built as a customized clone for specific market requirements. All assets are property of their respective owners.
+This project was built as a customized for specific market requirements. All assets are property of their respective owners.
 
 ---
 
