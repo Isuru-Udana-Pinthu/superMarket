@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProductDetailsContent = () => {
     return (
@@ -9,9 +9,9 @@ const ProductDetailsContent = () => {
                         <div className="row gy-4">
                             <div className="col-xl-6">
                                 <div className="product-details__left">
-                                    <div className="product-details__thumb-slider border border-gray-100 rounded-16">
+                                    <div className="product-details__thumb-slider border border-gray-100 rounded-16 flex items-center justify-center min-h-[400px]">
                                         <div className="item">
-                                            <img src="images/product-img1.png" alt="Product" className="w-100" />
+                                            <img src="images/product-img1.png" alt="Product" className="max-w-full max-h-[350px] object-fit-contain mx-auto" />
                                         </div>
                                     </div>
                                     <div className="mt-24 flex items-center gap-12 overflow-x-auto scroll-sm">
@@ -23,7 +23,7 @@ const ProductDetailsContent = () => {
                             </div>
                             <div className="col-xl-6">
                                 <div className="product-details__content">
-                                    <h5 className="mb-12">Lay's Potato Chips Onion Flavored</h5>
+                                    <h5 className="mb-12">Fresh Organic Purple Eggplant</h5>
                                     <div className="flex items-center gap-12 mb-20">
                                         <div className="flex items-center gap-4">
                                             <i className="ph-fill ph-star text-warning-600" />
@@ -32,33 +32,33 @@ const ProductDetailsContent = () => {
                                             <i className="ph-fill ph-star text-warning-600" />
                                             <i className="ph-fill ph-star text-gray-400" />
                                         </div>
-                                        <span className="text-sm text-gray-500">4.7 Star Rating (21,671)</span>
+                                        <span className="text-sm text-gray-500">4.8 Star Rating (1,240)</span>
                                         <span className="text-sm text-gray-500">|</span>
-                                        <span className="text-sm text-gray-500">SKU: EB4DRP</span>
+                                        <span className="text-sm text-gray-500">SKU: VEG-EP-01</span>
                                     </div>
-                                    <p className="text-gray-500 mb-24">Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Class aptent taciti sociosqu ad litora torquent</p>
+                                    <p className="text-gray-500 mb-24">Experience the freshness of our locally grown organic eggplants. Perfect for grilling, roasting, or creating delicious traditional curries. Rich in fiber and antioxidants, our vegetables are delivered fresh from the farm to your door.</p>
                                     <div className="flex items-center gap-16 mb-24">
-                                        <h4 className="mb-0 text-main-600">$25.00</h4>
-                                        <span className="text-gray-400 text-lg text-decoration-line-through">$38.00</span>
+                                        <h4 className="mb-0 text-main-600">$4.50</h4>
+                                        <span className="text-gray-400 text-lg text-decoration-line-through">$6.00</span>
                                     </div>
                                     
-                                    <a href="https://wa.me/94123456789" className="btn btn-main bg-success-600 hover-bg-success-700 flex items-center gap-8 mb-24 justify-center">
+                                    <a href="https://wa.me/94123456789" target="_blank" rel="noopener noreferrer" className="btn btn-main bg-success-600 hover-bg-success-700 flex items-center gap-8 mb-24 justify-center">
                                         <i className="ph ph-whatsapp-logo text-xl" />
                                         Order on WhatsApp
                                     </a>
 
                                     <div className="p-16 border border-gray-100 rounded-12 mb-24 bg-gray-50">
                                         <div className="flex items-center justify-between mb-12">
-                                            <span className="text-sm text-gray-600">Special Offer: Remains until the end of the offer</span>
+                                            <span className="text-sm text-gray-600">Freshness Guaranteed</span>
                                         </div>
                                         <div className="flex items-center gap-8 mb-12">
                                             <i className="ph-fill ph-lightning text-main-600" />
-                                            <span className="text-sm font-semibold">Products are almost sold out</span>
+                                            <span className="text-sm font-semibold">Stock low: Fresh harvest coming soon</span>
                                         </div>
                                         <div className="progress w-full bg-gray-200 rounded-full h-8 mb-8">
-                                            <div className="progress-bar bg-main-600 h-8 rounded-full" style={{width: '75%'}}></div>
+                                            <div className="progress-bar bg-main-600 h-8 rounded-full" style={{width: '20%'}}></div>
                                         </div>
-                                        <span className="text-xs text-gray-500">Available only: 45</span>
+                                        <span className="text-xs text-gray-500">Remaining stock: 12kg</span>
                                     </div>
 
                                     <div className="flex items-center gap-16 flex-wrap">
@@ -86,13 +86,13 @@ const ProductDetailsContent = () => {
                             </ul>
                             <div className="tab-content">
                                 <div className="tab-pane active">
-                                    <p className="text-gray-500 mb-20">Although the Unitarian Universalist Association (UUA) does not have a formal creed, our shared covenant, stated in our Bylaws, includes seven Principles which we as member ...</p>
+                                    <p className="text-gray-500 mb-20">Our organic purple eggplants are sustainably farmed and harvested at peak ripeness. They feature a firm texture and a sweet, mild flavor that develops beautifully when cooked. No pesticides or synthetic fertilizers are used in our growing process.</p>
                                     <div className="table-responsive">
                                         <table className="table border border-gray-100 rounded-12 overflow-hidden">
                                             <tbody>
-                                                <tr><td className="bg-gray-50 text-gray-900 font-semibold py-12 px-20">Brand</td><td className="py-12 px-20">Lay's</td></tr>
-                                                <tr><td className="bg-gray-50 text-gray-900 font-semibold py-12 px-20">Size</td><td className="py-12 px-20">200g</td></tr>
-                                                <tr><td className="bg-gray-50 text-gray-900 font-semibold py-12 px-20">Ingredients</td><td className="py-12 px-20">Potatoes, Vegetable Oil, Onion Powder, Salt</td></tr>
+                                                <tr><td className="bg-gray-50 text-gray-900 font-semibold py-12 px-20">Origin</td><td className="py-12 px-20">Sri Lanka</td></tr>
+                                                <tr><td className="bg-gray-50 text-gray-900 font-semibold py-12 px-20">Weight</td><td className="py-12 px-20">Approx. 500g per piece</td></tr>
+                                                <tr><td className="bg-gray-50 text-gray-900 font-semibold py-12 px-20">Type</td><td className="py-12 px-20">Organic Vegetable</td></tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -111,7 +111,7 @@ const ProductDetailsContent = () => {
                                     <span className="text-xs text-gray-500 block mb-4">Store</span>
                                     <h6 className="mb-0 text-sm">by Marketpro</h6>
                                 </div>
-                                <a href="/" className="btn btn-outline-main py-4 px-12 text-xs rounded-pill">View Store</a>
+                                <Link to="/" className="btn btn-outline-main py-4 px-12 text-xs rounded-pill">View Store</Link>
                             </div>
 
                             <ul className="flex flex-col gap-16 mb-24">

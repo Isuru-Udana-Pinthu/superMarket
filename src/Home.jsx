@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Preloader1 from './components/Preloader1';
 import Overlay2 from './components/Overlay2';
 import SideOverlay3 from './components/SideOverlay3';
@@ -29,9 +29,18 @@ import Footer27 from './components/Footer27';
 import BottomFooter28 from './components/BottomFooter28';
 
 const Home = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 800);
+        return () => clearTimeout(timer);
+    }, []);
+
     return (
         <div className="app-wrapper">
-            <Preloader1 />
+            {isLoading && <Preloader1 />}
             <Overlay2 />
             <SideOverlay3 />
             <ProgressWrap4 />

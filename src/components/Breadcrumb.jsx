@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Breadcrumb = () => {
     return (
@@ -8,18 +8,18 @@ const Breadcrumb = () => {
                     <h6 className="mb-0">Shop Details</h6>
                     <ul className="flex items-center gap-8 flex-wrap">
                         <li className="text-sm">
-                            <a href="/" className="text-gray-900 flex items-center gap-8 hover-text-main-600">
+                            <Link to="/" className="text-gray-900 flex items-center gap-8 hover-text-main-600">
                                 <i className="ph ph-house" />
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li className="flex items-center">
                             <i className="ph ph-caret-right" />
                         </li>
                         <li className="text-sm">
-                            <a href="/" className="text-gray-900 flex items-center gap-8 hover-text-main-600">
+                            <Link to="/" className="text-gray-900 flex items-center gap-8 hover-text-main-600">
                                 Shop
-                            </a>
+                            </Link>
                         </li>
                         <li className="flex items-center">
                             <i className="ph ph-caret-right" />
