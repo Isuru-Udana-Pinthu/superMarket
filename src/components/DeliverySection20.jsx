@@ -1,0 +1,7 @@
+const DeliverySection20 = () => {
+  return (
+    <div className="delivery-section"><div className="container container-lg"><div className="delivery relative rounded-16 bg-main-600 p-16 flex items-center gap-16 flex-wrap z-[1]"><img src="images/delivery-bg.png" alt="Image" className="absolute inset-block-start-0 inset-inline-start-0 z-[-1] w-full h-full" /><div className="row items-center"><div className="lg:w-3/12 flex-grow-0 flex-shrink-0 basis-auto lg:block hidden"><div className="delivery__man text-center" data-aos="fade-down-right"><img src="images/delivery-man.png" alt="Image" /></div></div><div className="lg:w-5/12 flex-grow-0 flex-shrink-0 basis-auto md:w-7/12 flex-grow-0 flex-shrink-0 basis-auto"><div className="text-center"><h4 className="text-white mb-8" data-aos="fade-down">We Delivery on Next Day from 10:00 AM to 08:00 PM</h4><p className="text-white" data-aos="zoom-in">For Orders starts from $100</p><a href="shop.html" className="mt-16 btn btn-main-two font-[500] inline-flex items-center rounded-[50rem] gap-8" data-aos="fade-up" tabIndex={0}>Shop Now <span className="icon text-xl flex"><i className="ph ph-arrow-right" /></span></a></div></div><div className="lg:w-4/12 flex-grow-0 flex-shrink-0 basis-auto md:w-5/12 flex-grow-0 flex-shrink-0 basis-auto md:block hidden" data-aos="zoom-out" data-aos-duration={800}><img src="images/special-snacks-img.png" alt="Image" /></div></div></div></div></div>
+  );
+};
+
+export default DeliverySection20;
