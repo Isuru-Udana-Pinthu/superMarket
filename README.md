@@ -27,7 +27,7 @@ Link :- [Live Link](https://super-market-smoky.vercel.app/)
 - **Routing**: [React Router 7](https://reactrouter.com/)
 - **Styling**: Tailwind CSS (bundled as `app.min.css`) + Vanilla CSS
 - **Utilities**: `htmltojsx`, `jsdom` (for high-fidelity template replication)
-- **Dev Tools**: ESLint (modern flat config)
+- **Dev Tools**: ESLint (modern flat config).
 
 ---
 
