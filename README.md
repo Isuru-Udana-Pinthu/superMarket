@@ -31,7 +31,7 @@ Link :- [Live Link](https://super-market-smoky.vercel.app/)
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure.
 
 ```text
 marketpro-clone/
